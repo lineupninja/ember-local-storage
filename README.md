@@ -164,7 +164,7 @@ export default Ember.Component.extend({
 `model` Optional string - The dependent property. Must be an ember data model or an object with `modelName` and `id` properties. (It is still experimental)
 
 `options` are:
-- `legacyKey` String
+- `legacyKey` String - **Deprecated see [Deprecations](#deprecations)**
 
 
 #### Methods
@@ -390,6 +390,15 @@ export default Route.extend({
 - `json` Boolean (default `true`)
 - `download` Boolean (default `false`)
 - `filename` String (default ember-data.json)
+
+## Deprecations
+
+### storageFor - legacyKey
+until: 2.0.0
+
+id: ember-local-storage.storageFor.options.legacyKey
+
+Using `legacyKey` has been deprecated and will be removed in version 2.0.0. You should migrate your key to the new format. For `storageFor('settings')` that would be `storage:settings`.
 
 ## Running
 
