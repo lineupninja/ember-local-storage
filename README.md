@@ -1,3 +1,7 @@
+# This is a fork
+
+This is a fork of ember-local-storage with the ember data dependency removed
+
 # Ember localStorage
 
 [![Build Status](https://api.travis-ci.org/funkensturm/ember-local-storage.svg?branch=master)](https://travis-ci.org/funkensturm/ember-local-storage)
